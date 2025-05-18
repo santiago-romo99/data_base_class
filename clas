@@ -1,0 +1,56 @@
+# Tipos de datos
+name: str = "Elizabeth" #String cadena de caracteres
+age: int = 30  #Int enteros
+heigth: float = 100.5 #Double o Float Numeros reales (decimales)
+is_enable: bool = True #Bool falso o verdadero
+
+# imprimir en consola
+print(name, age, heigth, is_enable)
+
+# Declarar funciones
+def sum(a, b):
+  return a + b
+
+print(sum(10, 20))
+
+
+# Condicionales
+age2: int = 13
+if age2 >= 18:
+  print("Es mayor de edad")
+elif age2 >= 13:
+  print("Es Adolescente")
+else:
+  print("Es menor de edad")
+
+# Ciclos(for, while)
+for i in range(8):
+  print("Repeticion numero", i)
+
+contador = 0
+while contador < 10:
+  print("contador", contador)
+  contador += 1
+
+     
+Elizabeth 30 100.5 True
+30
+Es Adolescente
+Repeticion numero 0
+Repeticion numero 1
+Repeticion numero 2
+Repeticion numero 3
+Repeticion numero 4
+Repeticion numero 5
+Repeticion numero 6
+Repeticion numero 7
+contador 0
+contador 1
+contador 2
+contador 3
+contador 4
+contador 5
+contador 6
+contador 7
+contador 8
+contador 9
